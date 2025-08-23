@@ -6,10 +6,10 @@ int main (void){
     scanf("%f", &dollar);
     real=dollar*3.17;
     if(real<=1000){
-        printf("BOM NEGOCIO!");
+        printf("BOM NEGOCIO!\n");
     }
     else{
-        printf("MAL NEGOCIO!");
+        printf("MAL NEGOCIO!\n");
         return 0;
     }
 }

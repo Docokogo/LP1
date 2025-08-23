@@ -11,6 +11,6 @@ int main (void){
         }
         soma=soma+n;
     }
-    printf("Soma: %d", soma);
+    printf("Soma: %d\n", soma);
     return 0;
 }

@@ -6,13 +6,13 @@ int main (void){
     scanf("%f",&mph);
     kph=mph*1.6;
     if (kph<80){
-        printf("ACELERE");
+        printf("ACELERE\n");
     }
     else if(kph>100){
-        printf("DESACELERE");
+        printf("DESACELERE\n");
     }
     else{
-        printf("MANTENHA");
+        printf("MANTENHA\n");
     }
     return 0;
 }
