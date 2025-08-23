@@ -10,4 +10,5 @@ int main (void){
     else{
         printf("Maior: %d\n",y);
     }
+    return 0;
 }
