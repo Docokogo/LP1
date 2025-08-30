@@ -1,0 +1,11 @@
+Qual é a diferença entre tipagem estática e dinâmica?
+Dê exemplos de linguagens que usem tipagem estática e exemplos de linguagens que usem tipagem dinâmica.
+Por quê uma linguagem com tipagem estática é tipicamente mais rápida do que uma com tipagem dinâmica? Justifique usando um exemplo.
+
+R: Uma linguagem que usa tipagem estática verifica o tipo das variáveis na compilação do código e o compilador guarda essas variáveis e não permite que ela assuma valores de tipos diferentes.
+Já a linguagem que usa tipagem dinâmica verifica o tipo das variáveis na execução do programa e permite que a mesma variável receba valores de tipos diferentes ao longo do programa.
+
+R: Alguns exemplos de linguagens que usam tipagem estática são: C,C++,Java etc...
+Já os que usam tipagem dinâmica são: Python, JavaScript, Ruby etc...
+
+R: Linguagens com tipagem estática são tipicamentes mais rápidas do que as de tipagem dinâmica, pois elas não precisam fazer várias verificações dos tipos de variáveis durante a execução do código, elas também podem agilizar a execução de certas contas matemáticas com o compilador.

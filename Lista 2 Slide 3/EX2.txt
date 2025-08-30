@@ -1,0 +1,15 @@
+O que você espera que aconteça ao compilar o programa? Por quê?
+Quais são os tipos dos operandos na operação de subtração?
+Transcreva a mensagem de erro de compilação e a explique.
+
+R: Eu acredito que a compilação do programa vai resultar em erro, pois 100 está subtraindo o "10" que está entre aspas, por conta das aspas a compilação não vai funcionar.
+
+R: int e char.
+
+R: error: invalid operands to binary - (have 'int' and 'char *')
+    3 |     printf("Soma = %d\n", 100 - "10");
+      |                               ^
+      |                               |
+      |                               char *
+
+O erro está dizendo que o operador "menos"(-) é inválido pois recebeu um int e char, onde a linguagem "c" não é capaz de definir uma subtração entre esses tipos de dados.

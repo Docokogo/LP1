@@ -1,0 +1,5 @@
+O que é um tipo de dados?
+Para que servem os tipos?
+
+R:Um tipo de dados é uma classificação que indica quais valores uma informação pode assumir e quais operações podem ser realizadas sobre ela.
+Eles são utilizados para organizar e melhorar a visualização do algoritmo, como também servem para melhorar a eficiência do programa, alocando uma quantidade de memória adequada de acordo com o tipo da variável.
