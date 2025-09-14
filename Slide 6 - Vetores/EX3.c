@@ -2,7 +2,7 @@
 
 void preenche (int arr[2][3], int l, int c){
     for (int i = 0; i < l; i++){
-        for (int j = 0; j < c; j++) {
+        for (int j = 0; j < c; j++){
             printf("Preencha [%d][%d]: ", i, j);
             scanf("%d", &arr[i][j]);
         }
@@ -11,8 +11,8 @@ void preenche (int arr[2][3], int l, int c){
 
 float media (int arr[2][3], int l, int c){
     int soma = 0;
-    for (int i = 0; i < l; i++) {
-        for (int j = 0; j < c; j++) {
+    for (int i = 0; i < l; i++){
+        for (int j = 0; j < c; j++){
             soma += arr[i][j];
         }
     }
