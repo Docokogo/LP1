@@ -11,7 +11,7 @@ void preenche (int* xs, int n){
 float media (int* xs, int n){
     unsigned int soma = 0;
     int i = 0;
-    while (i<n){
+    while(i<n){
         soma = soma + *(xs+i);
         i = i+1;
     }
