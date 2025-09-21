@@ -1,0 +1,11 @@
+Explique com suas próprias palavras as diferentes abordagens dos exercícios 2 e 3.
+Qual abordagem você prefere usar e porquê?
+Na sua opinião quais são as diferenças de uso de memória e velocidade nas duas abordagens?
+
+R: No exercício número 2 a função preencheA cria uma struct local, preenche ela com os scanf e retorna uma cópia do struct.
+Já no exercício número 3 a função preencheB recebe um ponteiro e usa ele para preencher o struct original, sem precisar criar outro, por isso a função não precisa retornar nada.
+
+R: Prefiro usar a segunda abordagem, pois apesar de ainda possuir pequenas dificuldades na ultilização dos ponteiros, entendo que é de extrema importância eu me acostumar com o uso dessa abordagem para aplicações em structs grandes.
+
+R: As diferenças são que a segunda abordagem é mais rápida e mais eficiente na memória do que a primeira.
+Isso se dá ao fato de que a segunda usa ponteiros para mudar o struct original, enquanto a primeira cria um novo struct toda vez que é chamada, desperdiçando espaço na memória e retornando uma cópia do struct criado, isso pode tornar o programa mais lento caso o struct seja grande, cheio de parâmetros.
