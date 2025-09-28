@@ -1,4 +1,4 @@
 O que é união discriminada e por que ela é necessária?
 
-R: união discriminada é quando você usa union em conjunto com enum para evitar erros de leitura de dados.
-Ela é necessária, pois evita erros e modela as informações recebidas, permitindo identificar o tipo do input do usuário ao invés de ter que limitar o que pode ser recebido.
+R: União discriminada é quando você usa union em conjunto com enum para evitar erros de leitura de dados.
+ Ela é necessária, pois evita erros e modela as informações recebidas, permitindo identificar o tipo do input do usuário ao invés de ter que limitar o que pode ser recebido.

@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-union Pessoa {
+union Pessoa{
     int CPF;
     char RG[20];
     char Nome[50];
 };
 
-int main(void) {
+int main(void){
     union Pessoa p;
     p.CPF = 123456789;
     printf("CPF: %d\n", p.CPF);

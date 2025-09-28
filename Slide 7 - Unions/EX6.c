@@ -9,7 +9,7 @@ union Ponto {
     int vec[3];
 };
 
-int main(void) {
+int main (void) {
     union Ponto pt;
     pt.vec[0] = 10;
     pt.vec[1] = 20;

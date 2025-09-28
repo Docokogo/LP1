@@ -74,7 +74,7 @@ void exibeAnimal(struct Animal a) {
     printf("-------------------------\n");
 }
 
-int main() {
+int main(void) {
     struct Animal animais[6];
     animais[0].classe = ANFIBIO;
     strcpy(animais[0].nomeEspecie, "Sapo");

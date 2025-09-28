@@ -52,7 +52,7 @@ void altera(struct Preco *p, enum Moeda nova) {
     }
 }
 
-int main() {
+int main(void) {
     struct Preco p;
     int escolha;
     float valor;

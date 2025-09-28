@@ -87,7 +87,7 @@ void exibe(struct VeiculoEspacial v) {
     printf("------------------------\n");
 }
 
-int main(void) {
+int main (void) {
     struct VeiculoEspacial v;
     preenche(&v);
     exibe(v);
