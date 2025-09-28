@@ -1,0 +1,8 @@
+Qual é a diferença entre struct e union. Dê exemplos de uso que identifiquem a necessidade dos dois construtores de tipos.
+
+R: A diferença entre struct e union é que struct armazena varios valores diferentes ao mesmo tempo.
+Já union guarda diferentes valores no mesmo espaço na memória, guardando somente o maior membro ou o valor mais recente recebido caso todos os membros que compõem a union ocupem a mesma quantidade de espaço na memória.
+
+  A existência de ambos construtores é importante, pois union economiza espaço quando não precisamos lembrar de todos os dados entregues, por exemplo:
+Para gravar pontos no plano bidimensional, é necessário armazenar todos os dados das coordenadas para achar um ponto, por isso usamos struct.
+No caso de um login onde você pode usar o seu e-mail ou o CPF, o union se encaixa melhor já que só um dos dois métodos será usado no login.
