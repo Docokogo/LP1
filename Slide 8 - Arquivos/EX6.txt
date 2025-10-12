@@ -1,0 +1,5 @@
+Altere todos os exercícios anteriores para usar o modo binário do fopen, ex.:
+fopen("x.txt", "wb")
+Houve alguma mudança de comportamento? Explique.
+
+R: Ao mudar o modo de abertura do arquivo de "w"/"r" para "wb"/"rb", o programa não apresentou nenhuma diferença de comportamento porque ele trabalha apenas com texto strings.

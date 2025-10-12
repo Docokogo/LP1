@@ -1,0 +1,7 @@
+Considerando o terminador \0, que cuidados são necessários ao lidar com strings e arquivos em C
+1 - ao escrever uma string para um arquivo?
+2 - ao ler uma string de um arquivo?
+
+R: Quando escrever uma string para um arquivo, incluir o terminador "\0" normalmente não é necessário, mas é importante adicioná-lo para evitar erros em arquivos binários e tipos de leituras que dependam de parar no "\0".
+
+R: Quando ler uma string de um arquivo, é necessário ter cuidado com o tipo de leitura para caso a string não tenha o terminador "\0". Para contornar esse problema, podemos ler um número seguro de caracteres ou depender do terminador EOF caso o fim da string também seja o fim do arquivo. Também é possível adicionar o terminador "\0" no ato da leitura.

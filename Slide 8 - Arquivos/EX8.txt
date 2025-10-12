@@ -1,0 +1,6 @@
+Qual é a relação entre o tamanho do nome de uma Pessoa e o tamanho final do arquivo gravado?
+Altere as funções de leitura e escrita para economizar espaço no disco.
+
+R: No código original, cada registro tinha tamanho fixo (72 bytes), pois o campo nome reserva 64 bytes, mesmo que o nome seja curto.
+No código após as alterações, o tamanho gravado depende do tamanho real do nome (strlen(nome)), já que apenas os caracteres utilizados são escritos no arquivo.
+Espaço é economizado quando o nome é menor que 63 caracteres.
