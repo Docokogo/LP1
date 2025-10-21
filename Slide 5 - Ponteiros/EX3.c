@@ -12,10 +12,10 @@ int main (void){
     scanf("%d", &minha_conta2);
     while (i<5){
         if (minha_conta<minha_conta2){
-        compra(&minha_conta2,*(compras + i));
+        compra(&minha_conta2, compras[i]);
     }
     else{
-        compra(&minha_conta,*(compras + i));
+        compra(&minha_conta, compras[i]);
     }
     printf("Conta 1: %d\n", minha_conta);
     printf("Conta 2: %d\n", minha_conta2);
